@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pyplay"
+version = "0.1.0"
+description = ""
+authors = ["Victor Ni <neefrankie@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+SQLAlchemy = "^2.0.19"
+pymysql = "^1.1.0"
+cryptography = "^41.0.3"
+mysqlclient = "^2.2.0"
+
+[tool.poetry.group.dev.dependencies]
+types-PyMySQL = "^1.1.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
